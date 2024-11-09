@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: teal;
+    text-align: center;
+}
+#heading{
+    font-size: 10vmin;
+}
+.game-container{
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5vmin;
+}
+.heading-container{
+    height: 100vmin;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1vmin;
+}
+.msgContainer{
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+}
+.msg{
+    height: 50vmin;
+    width: 50vmin;
+    font-size: 10vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: beige;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 20vmin;
+}
+.start-btn{
+    background-color: black;
+    color: aliceblue;
+    border: none;
+    font-size: 3vmin;
+    width: 25vmin;
+    height: 6vmin;
+    border-radius: 2vmin;
+}
+.reset-btn{
+    background-color: black;
+    color: aliceblue;
+    border: none;
+    font-size: 3vmin;
+    width: 25vmin;
+    height: 6vmin;
+    border-radius: 2vmin;
+}
+.restart-btn{
+    background-color: black;
+    color: aliceblue;
+    border: none;
+    font-size: 3vmin;
+    width: 25vmin;
+    height: 6vmin;
+    border-radius: 2vmin;
+}
+.game{
+    height: 72vmin;
+    width: 70vmin;
+    border: solid 0.5vmin black;
+}
+.box{
+    margin: 0;
+    padding: 0;
+    height: 8vmin;
+    width: 8vmin;
+    background-color: #ffffff;
+    font-size: 5vmin;
+}
+.hide{
+    display: none;
+}
