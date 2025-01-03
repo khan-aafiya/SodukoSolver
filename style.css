@@ -84,6 +84,9 @@ body{
     background-color: #ffffff;
     font-size: 5vmin;
 }
+.box:hover {
+    background-color: #f0f0f0;
+}
 .hide{
     display: none;
 }
